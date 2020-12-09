@@ -1,0 +1,18 @@
+version: 1
+
+formatters:
+  app:
+    format: " %(asctime)s %(filename)-20s %(levelname)-8s: %(message)s"
+    datefmt: "%d.%m.%Y %H:%M:%S"
+handlers:
+  app-console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: app
+    stream: ext://sys.__stdout__
+loggers:
+  app:
+    level: INFO
+    handlers: [app-console]
+root:
+  handlers: []

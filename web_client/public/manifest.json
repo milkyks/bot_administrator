@@ -1,0 +1,11 @@
+{
+  "short_name": "Dorm bot",
+  "name": "Web client for dorm bot",
+  "icons": [
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
